@@ -1,6 +1,6 @@
 <?php
 
-function criarArtigo ($imagem,$tema,$titulo,$subtitulo,$data,$tag){
+function criarArtigo ($imagem,$tema,$titulo,$conteudo,$data,$tag){
     return "
      <div class='artigo'>
         <div class='lado-esquerdo'>
@@ -12,8 +12,8 @@ function criarArtigo ($imagem,$tema,$titulo,$subtitulo,$data,$tag){
         </div>
         <div class='lado-direito'>
             <h1>$titulo</h1>
-            <h3>$subtitulo</h3>
-            <p>$tag</p>
+            <p>$conteudo</p>
+            <span>$tag</span>
         </div>
      <div>
     ";

@@ -1,7 +1,8 @@
 *{
     margin:0;
     padding: 0;
-    font-family: "Noto Sans","sans-serif";
+    /* font-family: "Noto Sans","sans-serif"; */
+    
 }
 
 :root{
@@ -136,22 +137,30 @@ body {
 .artigo{
     display: flex;
     align-items:center;
+    justify-content: space-between;
     background-color: var(--principal);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     color: white;
     border-radius: 65px;
     /* border: 1px solid white; */
     width: 1000px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .artigos{
 
+}
+.lado-esquerdo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .artigos img{
     display:flex;
     width: 150px;
     height: 150px;
     border-radius: 65px;
-    position: relative;
     left: 34px;
     top:20px;
 
